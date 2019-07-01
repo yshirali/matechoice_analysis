@@ -1,0 +1,67 @@
+---
+title: "matechoice_analysis"
+author: "Yasmin Shirali"
+date: "7/1/2019"
+output: html_document
+---
+
+```{r}
+library(DataExplorer)
+library(tidyverse)
+```
+
+```{r}
+mc <- read_csv("~/matechoice_analysis/matechoice_FRI_R_july_1_2019.csv")
+```
+
+```{r}
+introduce(mc)
+```
+
+```{r}
+plot_bar(mc) #frequency distribution of all discrete variables
+```
+
+```{r}
+plot_histogram(mc) #plot histogram of all continuous variabbles
+```
+
+```{r}
+mc_corr <- plot_correlation(mc)
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
